@@ -39,6 +39,7 @@
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <asp:Button runat="server" OnClick="CreateUser_Click" Text="Register" CssClass="btn btn-default" />
+            &nbsp;<asp:Button ID="btnRegister2" runat="server" CssClass="btn btn-default" PostBackUrl="~/Account/RegisterPage2.aspx" Text="Next" />
             </div>
         </div>
     </div>

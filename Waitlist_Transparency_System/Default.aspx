@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>LOOKING FOR A LICENSED CHILDCARE PROVIDER IN YOUR AREA?</h1>
+        <h1>LOOKING FOR A LICENSED CHILD CARE PROVIDER IN YOUR AREA?</h1>
         <p class="lead" style="color: #FFFFFF">Enabling access to quality child care through access to waiting lists</p>
         <p>
                 <a class="btn btn-default" runat="server" href="~/Search">Search Now &raquo;</a></p>
