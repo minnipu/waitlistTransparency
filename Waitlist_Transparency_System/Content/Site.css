@@ -1,0 +1,101 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: -40px;
+        border-radius:0;
+    }
+    .body-content {
+        padding: 10px;
+    }
+    .navbar-fixed-top {
+
+    }
+   
+}
+
+.navbar {
+  position: relative;
+  min-height: 40px;
+  /*margin-bottom: 18px;*/
+  /*border: 1px solid transparent;*/
+}
+
+.container .jumbotron
+{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    text-align: center;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 59px;
+  }
+}
+
+.navbar-inverse {
+  background-color: #276b8c;
+  opacity:0.65;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FCFCFC;
+}
+
+.navbar-inverse .navbar-text {
+  color: #FCFCFC;
+}
+.navbar-inverse .navbar-nav > li > a  {
+  color: #FCFCFC;
+  
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #ffffff;
+  background-color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: black;
+}
