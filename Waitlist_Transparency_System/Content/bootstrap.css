@@ -3065,7 +3065,7 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #ffffff;
-  background-color: #474949;
+  background-color: #181a2a;
   border-color: #474949;
 }
 .btn-default:focus,
@@ -3113,11 +3113,11 @@ fieldset[disabled] .btn-default:focus,
 .btn-default.disabled.focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
-  background-color: #474949;
+  background-color: #181a2a;
   border-color: #474949;
 }
 .btn-default .badge {
-  color: #474949;
+  color: #181a2a;
   background-color: #ffffff;
 }
 .btn-primary {
@@ -3128,7 +3128,7 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: 003399;
+  background-color: #003399;
   border-color: #621007;
 }
 .btn-primary:hover {
@@ -4173,15 +4173,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 40px;
-  margin-bottom: 18px;
+  /*margin-bottom: 18px;*/
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 4px;
+   
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1263px) {
   .navbar-header {
     float: left;
   }
@@ -4198,7 +4198,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 1263px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4292,7 +4292,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand > img {
   display: block;
 }
-@media (min-width: 768px) {
+@media (min-width: 1263px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
@@ -4322,7 +4322,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1263px) {
   .navbar-toggle {
     display: none;
   }
@@ -4358,7 +4358,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1263px) {
   .navbar-nav {
     float: left;
     margin: 0;
@@ -4598,9 +4598,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse {
   background-color: #0099FF;
-  opacity:0.75;
-  
-
+  opacity:0.70;
 }
 .navbar-inverse .navbar-brand {
   color: #fac0ba;
@@ -4990,7 +4988,6 @@ a.badge:focus {
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
-  border-radius: 6px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -5009,7 +5006,7 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 59px;
+    font-size: 59px;a
   }
 }
 .thumbnail {
@@ -6794,7 +6791,7 @@ button.close {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe72510', endColorstr='#ffcb210e', GradientType=0);
   -webkit-filter: none;
           filter: none;
-  border: 1px solid 003399;
+  border: 1px solid #003399;
 }
 .btn-success,
 .btn-success:hover {
