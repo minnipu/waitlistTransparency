@@ -36,10 +36,10 @@
                 <asp:ScriptReference Name="WebFormsBundle" />
                 <%--Site Scripts--%>
             </Scripts>
-        </asp:ScriptManager>
-
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
+        </asp:ScriptManager>  
+        <div style="margin: 0 20% 0 20% ">
+        <div class="navbar navbar-inverse">
+            <%--<div class="container">--%>
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
@@ -58,8 +58,8 @@
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Register">Childcare Register</a></li>
-                                <li><a runat="server" href="~/Account/Login">Licensed Childcare Facility Log In</a></li>
+                                <li><a runat="server" href="~/Account/Register">Child Care Register</a></li>
+                                <li><a runat="server" href="~/Account/Login">Licensed Log In</a></li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
@@ -72,16 +72,19 @@
                         </LoggedInTemplate>
                     </asp:LoginView>
                 </div>
-            </div>
+            <%--</div>--%>
         </div>
-        <div class="container body-content">
+        <%--<div class="container body-content">--%>
+            <div>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - Waitlist Transparency System</p>
             </footer>
+                </div>
         </div>
+           <%-- </div>--%>
     </form>
 </body>
 </html>
