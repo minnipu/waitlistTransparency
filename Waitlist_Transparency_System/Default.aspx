@@ -11,10 +11,8 @@
 
     <div class="row">
         <div class="col-md-4">
-            <h2 style="color: rgb(111, 111, 111); font-family: 'Libre Baskerville', serif;">Our Mission</h2>
-            <p>
-                <span style="color: rgb(111, 111, 111); font-family: 'Libre Baskerville', serif; font-size: 20px; ">To provide you an easy way to search for licensed child care in your community and allow you to better plan for your future by understanding when your preferred child care provider will be able to offer you a space in their program.</span>
-            </p>
+            <h2>Our Mission</h2>
+                <h4>To provide you an easy way to search for licensed child care in your community and allow you to better plan for your future by understanding when your preferred child care provider will be able to offer you a space in their program.</h4>
             
         </div>
         <div class="col-md-4">
